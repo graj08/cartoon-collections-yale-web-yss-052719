@@ -11,8 +11,9 @@ def summon_captain_planet (planeteer_calls)# code an argument here
     call_upcased << x.shift.upcase
     call_upcased.push(x)
     call_upcased.push("!")
-    call_upcased
+    planeteer_calls[x] = call_upcased
   end
+  planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
