@@ -8,7 +8,7 @@ end
 def summon_captain_planet (planeteer_calls)# code an argument here
   call_upcased = String.new # Your code here
   planeteer_calls.collect do |x|
-    call_upcased << x.shift.upcase
+    call_upcased << planeteer_calls[x].shift.upcase
     call_upcased.push(x)
     call_upcased.push("!")
     planeteer_calls[x] = call_upcased
