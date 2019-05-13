@@ -21,7 +21,7 @@ def long_planeteer_calls (words)# code an argument here
       long_words = true
     else
     end
-    puts long_words
+    return long_words
   end
     # Your code here
 end
