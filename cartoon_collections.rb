@@ -19,7 +19,6 @@ def long_planeteer_calls (words)# code an argument here
   words.each do |x|
     if x.length >4
       long_words = true
-      puts "#{long_words} & #{x}"
     else
     end
     puts long_words
