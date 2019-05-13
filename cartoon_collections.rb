@@ -22,7 +22,7 @@ def long_planeteer_calls (words)# code an argument here
       puts "#{long_words} & #{x}"
     else
     end
-    long_words
+    puts long_words
   end
     # Your code here
 end
