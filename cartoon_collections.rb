@@ -10,7 +10,7 @@ planeteer_calls.map do |x|
 x.capitalize
 end
 planeteer_calls.collect  do |y|
-  y.push("!")
+  y << "!"
 end
 end
 
