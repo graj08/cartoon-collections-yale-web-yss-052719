@@ -26,9 +26,15 @@ else
 end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese (ingredients)
+  # code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
+  ingredients.each do |x|
+    if cheese_types.include(x)
+      return x
+    else
+    end
+  end
+  return nil
 end
-
-puts long_planeteer_calls(["axe", "earth200000000", "wind", "fire"])
