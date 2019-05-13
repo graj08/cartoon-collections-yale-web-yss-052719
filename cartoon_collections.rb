@@ -22,9 +22,9 @@ def long_planeteer_calls (words)# code an argument here
     else
     end
     if long_words>0
-      true
+      return true
     else
-      false
+      return false
     end
   end
     # Your code here
