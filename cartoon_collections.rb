@@ -14,8 +14,15 @@ planeteer_calls.collect  do |y|
 end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls (words)# code an argument here
+  long_words = false
+  words.each do |x|
+    if x.length >4 do
+      long_words = true
+    else
+    end
+  end
+    # Your code here
 end
 
 def find_the_cheese# code an argument here
