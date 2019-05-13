@@ -15,20 +15,16 @@ end
 end
 
 def long_planeteer_calls (words)# code an argument here
-  long_words = 0
-  words.each do |x|
-    if x.length >4
-      long_words += 1
-    else
-    end
-  end
-    if long_words>0
-      return true
-    else
-      return false
-    end
-    # Your code here
-
+length_array = Array.new
+words.each_with_index do |x,i|
+  length_array[i] = x.length
+end
+if length_array.max>4
+  return true
+else
+  return false
+end
+end
 
 def find_the_cheese# code an argument here
   # the array below is here to help
