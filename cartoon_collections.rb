@@ -1,9 +1,18 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves (list)# code an argument here
   # Your code here
+  list.each_with_index do |x,i|
+    puts "#{i+1}. #{x}"
+  end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet (planeteer_calls)# code an argument here
+  call_upcased = String.new # Your code here
+  planeteer_calls.collect do |x|
+    call_upcased << x.shift.upcase
+    call_upcased.push(x)
+    call_upcased.push("!")
+    call_upcased
+  end
 end
 
 def long_planeteer_calls# code an argument here
