@@ -6,7 +6,7 @@ def roll_call_dwarves (list)# code an argument here
 end
 
 def summon_captain_planet (planeteer_calls)# code an argument here
-planeteer_calls.map do |x| 
+planeteer_calls.map do |x|
 x.capitalize
 end
 planeteer_calls.collect  do |y|
