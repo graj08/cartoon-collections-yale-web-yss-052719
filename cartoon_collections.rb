@@ -17,7 +17,7 @@ end
 def long_planeteer_calls (words)# code an argument here
   long_words = 0
   words.each do |x|
-    if x.length >4
+    if x.size >4
       long_words += 1
     else
     end
