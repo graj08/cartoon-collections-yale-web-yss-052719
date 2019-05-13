@@ -15,13 +15,17 @@ end
 end
 
 def long_planeteer_calls (words)# code an argument here
-  long_words = false
+  long_words = 0
   words.each do |x|
     if x.length >4
-      long_words = true
+      long_words += 1
     else
     end
-    long_words
+    if long_words>0
+      true
+    else
+      false
+    end
   end
     # Your code here
 end
